@@ -15,6 +15,7 @@ CREATE OR REPLACE VIEW EDW_NORM.vw_process_run_status
 --+ 02/05/2020  Poseidon 0.8  Deepak Shenoy     Initial Version
 --+ 05/21/2020  GIT           Vikram            Git Testing
 --+ 05/21/2020  GIT           Vikram            Second Git Testing
+--+ 05/21/2020  GIT           Vikram            Modified for Pos 1.3
 --+
 --+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 SELECT cnf.schema_name
