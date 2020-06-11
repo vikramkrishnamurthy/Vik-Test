@@ -23,6 +23,7 @@ SELECT cnf.schema_name
       ,cnf.sp_name
       ,cnf.table_name
       ,adt.row_id run_id
+      ,edw_update_dtm
   FROM EDW_NORM.process_audit adt
       ,EDW_NORM.process_config cnf
  WHERE adt.config_id = cnf.config_id
